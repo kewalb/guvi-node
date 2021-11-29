@@ -1,0 +1,22 @@
+{
+  "name": "guvi-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.2.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error:no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
